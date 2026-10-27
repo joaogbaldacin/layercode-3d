@@ -1,0 +1,72 @@
+export const materials = [
+  {
+    id: "pla-eco",
+    name: "PLA Premium Eco-Friendly",
+    type: "Termoplástico Biodegradável",
+    origin: "Derivado de fontes renováveis (amido de milho e cana-de-açúcar)",
+    tempNozzle: "205°C - 215°C",
+    tempBed: "55°C - 60°C",
+    finish: "Fosco Suave, Seda Metálico ou Translúcido",
+    strength: "Média-Alta para esforços estáticos",
+    ecoFriendly: true,
+    badge: "Mais Popular",
+    description: "Ideal para itens de decoração, vasos, organizadores e miniaturas. Apresenta o acabamento visual mais limpo e impecável com baixíssima retração dimensional.",
+    bestFor: ["Decoração de interiores", "Organizadores de mesa", "Acessórios e carcaças leves", "Protótipos visuais"]
+  },
+  {
+    id: "petg-pro",
+    name: "PETG de Engenharia",
+    type: "Copolímero Reforçado",
+    origin: "Polímero de alta ductilidade e resistência química",
+    tempNozzle: "235°C - 245°C",
+    tempBed: "75°C - 85°C",
+    finish: "Semibrilho resistente a riscos",
+    strength: "Alta resistência a impacto e tração",
+    ecoFriendly: false,
+    badge: "Uso Funcional",
+    description: "Combina a facilidade de acabamento com resistência superior. Suporta temperaturas de até 75°C e possui excelente aderência entre camadas, sendo perfeito para peças mecânicas e utilitários de alta carga.",
+    bestFor: ["Suportes de notebook e monitores", "Peças de reposição", "Braquetes e suportes de parede", "Gabinetes eletrônicos"]
+  },
+  {
+    id: "resin-8k",
+    name: "Resina UV 8K Alta Resolução",
+    type: "Fotopolímero Líquido Curado a Laser/LCD",
+    origin: "Matriz líquida de precisão cirúrgica",
+    tempNozzle: "Cura UV 405nm",
+    tempBed: "N/A",
+    finish: "Ultra-liso, sem linhas de camada perceptíveis a olho nu",
+    strength: "Rígido com detalhes microscópicos de 0.025mm",
+    ecoFriendly: false,
+    badge: "Detalhes Extremos",
+    description: "Tecnologia de cura por luz ultravioleta para reproduzir detalhes hiper-realistas: expressões faciais, texturas de tecidos e micro-engrenagens. Cada peça é lavada em álcool isopropílico e pós-curada em câmara UV.",
+    bestFor: ["Action Figures colecionáveis", "Miniaturas para RPG", "Jóias e protótipos de design", "Peças dentárias e médicas didáticas"]
+  },
+  {
+    id: "tpu-flex",
+    name: "TPU Flexível 95A",
+    type: "Elastômero Termoplástico",
+    origin: "Polímero elástico com memória de forma",
+    tempNozzle: "220°C - 230°C",
+    tempBed: "50°C",
+    finish: "Textura emborrachada fosca e macia",
+    strength: "Absorção máxima de impacto e choques mecânicos",
+    ecoFriendly: false,
+    badge: "Emborrachado",
+    description: "Material flexível de alta durabilidade que pode ser dobrado, amassado e torcido sem deformação permanente. Excelente para amortecimento, pegadas ergonômicas e vedações.",
+    bestFor: ["Capas e protetores anti-queda", "Pés antivibração para impressoras", "Vedações industriais", "Grips antiderrapantes"]
+  },
+  {
+    id: "asa-abs",
+    name: "ASA / ABS Industrial",
+    type: "Termoplástico Técnico Resistente a Raios UV",
+    origin: "Formulação estabilizada para intempéries",
+    tempNozzle: "250°C - 265°C",
+    tempBed: "100°C - 110°C (Câmara Fechada)",
+    finish: "Fosco industrial, passível de acabamento químico com vapor",
+    strength: "Extrema rigidez e resistência térmica até 95°C",
+    ecoFriendly: false,
+    badge: "Uso Externo",
+    description: "O padrão-ouro para aplicações automotivas e externas. Não amarela nem resseca sob a luz do sol constante e suporta intempéries, chuva e calor direto.",
+    bestFor: ["Peças automotivas e para motos", "Suportes para câmeras externas", "Equipamentos de drones", "Dutos de ar e climatização"]
+  }
+]
